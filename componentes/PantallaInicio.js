@@ -12,7 +12,7 @@ function PantallaInicio({ navigation }) {
             source={require('../images/logo.png')}
           />
           <Text  style={{ top: 60, fontSize: 20, fontWeight: 'bold', color: 'white', fontFamily:'sans-serif', textAlign:"center" }}>
-            Aplicación móvil de talleres de la Corporación Municipal de Deportes Quintero
+            Aplicación móvil para la Corporación Municipal de Deportes Quintero
           </Text>
           
           <Pressable style={styles.button} onPress={() => navigation.navigate('Talleres de la corporación')}>
