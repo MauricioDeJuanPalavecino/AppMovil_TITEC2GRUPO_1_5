@@ -24,7 +24,7 @@ function PantallaInicio({ navigation }) {
         </Pressable>
 
         <Pressable style={styles.button3} onPress={() => navigation.navigate('Preguntas frecuentes')}>
-          <Text style={styles.text}>Ver preguntas frecuentes sobre la aplicación</Text>
+          <Text style={styles.text}>Ver preguntas frecuentes sobre los talleres</Text>
         </Pressable>
         <StatusBar style="auto" />
         
